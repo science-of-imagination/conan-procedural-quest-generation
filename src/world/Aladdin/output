@@ -1,0 +1,1774 @@
+begin_version
+3
+end_version
+begin_metric
+1
+end_metric
+15
+begin_variable
+var25
+-1
+2
+Atom sneaky(you)
+NegatedAtom sneaky(you)
+end_variable
+begin_variable
+var19
+-1
+2
+Atom has(dragon, lamp)
+NegatedAtom has(dragon, lamp)
+end_variable
+begin_variable
+var8
+-1
+2
+Atom cooperative(jafar)
+NegatedAtom cooperative(jafar)
+end_variable
+begin_variable
+var1
+-1
+3
+Atom at(jafar, castle)
+Atom at(jafar, lamp)
+Atom at(jafar, mountain)
+end_variable
+begin_variable
+var7
+-1
+2
+Atom cooperative(aladdin)
+NegatedAtom cooperative(aladdin)
+end_variable
+begin_variable
+var0
+-1
+3
+Atom at(aladdin, castle)
+Atom at(aladdin, lamp)
+Atom at(aladdin, mountain)
+end_variable
+begin_variable
+var9
+-1
+2
+Atom cooperative(jasmine)
+NegatedAtom cooperative(jasmine)
+end_variable
+begin_variable
+var2
+-1
+3
+Atom at(jasmine, castle)
+Atom at(jasmine, lamp)
+Atom at(jasmine, mountain)
+end_variable
+begin_variable
+var3
+-1
+3
+Atom at(you, castle)
+Atom at(you, lamp)
+Atom at(you, mountain)
+end_variable
+begin_variable
+var20
+-1
+2
+Atom has(jafar, lamp)
+NegatedAtom has(jafar, lamp)
+end_variable
+begin_variable
+var21
+-1
+2
+Atom has(jasmine, lamp)
+NegatedAtom has(jasmine, lamp)
+end_variable
+begin_variable
+var23
+-1
+2
+Atom has(you, lamp)
+NegatedAtom has(you, lamp)
+end_variable
+begin_variable
+var17
+-1
+2
+Atom has(aladdin, lamp)
+NegatedAtom has(aladdin, lamp)
+end_variable
+begin_variable
+var4
+-1
+2
+Atom captive(you, aladdin)
+NegatedAtom captive(you, aladdin)
+end_variable
+begin_variable
+var26
+-1
+2
+Atom used(lamp)
+NegatedAtom used(lamp)
+end_variable
+0
+begin_state
+1
+0
+1
+0
+1
+0
+1
+0
+0
+1
+1
+1
+1
+1
+1
+end_state
+begin_goal
+3
+12 0
+13 0
+14 0
+end_goal
+63
+begin_operator
+capture you aladdin castle
+2
+5 0
+8 0
+1
+0 13 -1 0
+2
+end_operator
+begin_operator
+capture you aladdin lamp
+2
+5 1
+8 1
+1
+0 13 -1 0
+2
+end_operator
+begin_operator
+capture you aladdin mountain
+2
+5 2
+8 2
+1
+0 13 -1 0
+2
+end_operator
+begin_operator
+escort you aladdin castle lamp
+1
+4 0
+2
+0 5 0 1
+0 8 0 1
+4
+end_operator
+begin_operator
+escort you aladdin castle mountain
+1
+4 0
+2
+0 5 0 2
+0 8 0 2
+4
+end_operator
+begin_operator
+escort you aladdin lamp castle
+1
+4 0
+2
+0 5 1 0
+0 8 1 0
+4
+end_operator
+begin_operator
+escort you aladdin lamp mountain
+1
+4 0
+2
+0 5 1 2
+0 8 1 2
+4
+end_operator
+begin_operator
+escort you aladdin mountain castle
+1
+4 0
+2
+0 5 2 0
+0 8 2 0
+4
+end_operator
+begin_operator
+escort you aladdin mountain lamp
+1
+4 0
+2
+0 5 2 1
+0 8 2 1
+4
+end_operator
+begin_operator
+escort you jafar castle lamp
+1
+2 0
+2
+0 3 0 1
+0 8 0 1
+4
+end_operator
+begin_operator
+escort you jafar castle mountain
+1
+2 0
+2
+0 3 0 2
+0 8 0 2
+4
+end_operator
+begin_operator
+escort you jafar lamp castle
+1
+2 0
+2
+0 3 1 0
+0 8 1 0
+4
+end_operator
+begin_operator
+escort you jafar lamp mountain
+1
+2 0
+2
+0 3 1 2
+0 8 1 2
+4
+end_operator
+begin_operator
+escort you jafar mountain castle
+1
+2 0
+2
+0 3 2 0
+0 8 2 0
+4
+end_operator
+begin_operator
+escort you jafar mountain lamp
+1
+2 0
+2
+0 3 2 1
+0 8 2 1
+4
+end_operator
+begin_operator
+escort you jasmine castle lamp
+1
+6 0
+2
+0 7 0 1
+0 8 0 1
+4
+end_operator
+begin_operator
+escort you jasmine castle mountain
+1
+6 0
+2
+0 7 0 2
+0 8 0 2
+4
+end_operator
+begin_operator
+escort you jasmine lamp castle
+1
+6 0
+2
+0 7 1 0
+0 8 1 0
+4
+end_operator
+begin_operator
+escort you jasmine lamp mountain
+1
+6 0
+2
+0 7 1 2
+0 8 1 2
+4
+end_operator
+begin_operator
+escort you jasmine mountain castle
+1
+6 0
+2
+0 7 2 0
+0 8 2 0
+4
+end_operator
+begin_operator
+escort you jasmine mountain lamp
+1
+6 0
+2
+0 7 2 1
+0 8 2 1
+4
+end_operator
+begin_operator
+explore you castle lamp
+0
+1
+0 8 0 1
+3
+end_operator
+begin_operator
+explore you castle mountain
+0
+1
+0 8 0 2
+3
+end_operator
+begin_operator
+explore you lamp castle
+0
+1
+0 8 1 0
+3
+end_operator
+begin_operator
+explore you lamp mountain
+0
+1
+0 8 1 2
+3
+end_operator
+begin_operator
+explore you mountain castle
+0
+1
+0 8 2 0
+3
+end_operator
+begin_operator
+explore you mountain lamp
+0
+1
+0 8 2 1
+3
+end_operator
+begin_operator
+giveto you aladdin lamp castle
+2
+5 0
+8 0
+3
+0 4 -1 0
+0 12 -1 0
+0 11 0 1
+2
+end_operator
+begin_operator
+giveto you aladdin lamp lamp
+2
+5 1
+8 1
+3
+0 4 -1 0
+0 12 -1 0
+0 11 0 1
+2
+end_operator
+begin_operator
+giveto you aladdin lamp mountain
+2
+5 2
+8 2
+3
+0 4 -1 0
+0 12 -1 0
+0 11 0 1
+2
+end_operator
+begin_operator
+giveto you jafar lamp castle
+2
+3 0
+8 0
+3
+0 2 -1 0
+0 9 -1 0
+0 11 0 1
+2
+end_operator
+begin_operator
+giveto you jafar lamp lamp
+2
+3 1
+8 1
+3
+0 2 -1 0
+0 9 -1 0
+0 11 0 1
+2
+end_operator
+begin_operator
+giveto you jafar lamp mountain
+2
+3 2
+8 2
+3
+0 2 -1 0
+0 9 -1 0
+0 11 0 1
+2
+end_operator
+begin_operator
+giveto you jasmine lamp castle
+2
+7 0
+8 0
+3
+0 6 -1 0
+0 10 -1 0
+0 11 0 1
+2
+end_operator
+begin_operator
+giveto you jasmine lamp lamp
+2
+7 1
+8 1
+3
+0 6 -1 0
+0 10 -1 0
+0 11 0 1
+2
+end_operator
+begin_operator
+giveto you jasmine lamp mountain
+2
+7 2
+8 2
+3
+0 6 -1 0
+0 10 -1 0
+0 11 0 1
+2
+end_operator
+begin_operator
+move you castle lamp
+0
+1
+0 8 1 0
+2
+end_operator
+begin_operator
+move you castle mountain
+0
+1
+0 8 2 0
+2
+end_operator
+begin_operator
+move you lamp castle
+0
+1
+0 8 0 1
+2
+end_operator
+begin_operator
+move you lamp mountain
+0
+1
+0 8 2 1
+2
+end_operator
+begin_operator
+move you mountain castle
+0
+1
+0 8 0 2
+2
+end_operator
+begin_operator
+move you mountain lamp
+0
+1
+0 8 1 2
+2
+end_operator
+begin_operator
+stealth you
+0
+1
+0 0 -1 0
+2
+end_operator
+begin_operator
+take you aladdin lamp castle
+3
+5 0
+8 0
+4 0
+2
+0 12 0 1
+0 11 -1 0
+2
+end_operator
+begin_operator
+take you aladdin lamp castle
+3
+5 0
+8 0
+0 0
+2
+0 12 0 1
+0 11 -1 0
+2
+end_operator
+begin_operator
+take you aladdin lamp lamp
+3
+5 1
+8 1
+4 0
+2
+0 12 0 1
+0 11 -1 0
+2
+end_operator
+begin_operator
+take you aladdin lamp lamp
+3
+5 1
+8 1
+0 0
+2
+0 12 0 1
+0 11 -1 0
+2
+end_operator
+begin_operator
+take you aladdin lamp mountain
+3
+5 2
+8 2
+4 0
+2
+0 12 0 1
+0 11 -1 0
+2
+end_operator
+begin_operator
+take you aladdin lamp mountain
+3
+5 2
+8 2
+0 0
+2
+0 12 0 1
+0 11 -1 0
+2
+end_operator
+begin_operator
+take you dragon lamp mountain
+2
+8 2
+0 0
+2
+0 1 0 1
+0 11 -1 0
+2
+end_operator
+begin_operator
+take you jafar lamp castle
+3
+3 0
+8 0
+2 0
+2
+0 9 0 1
+0 11 -1 0
+2
+end_operator
+begin_operator
+take you jafar lamp castle
+3
+3 0
+8 0
+0 0
+2
+0 9 0 1
+0 11 -1 0
+2
+end_operator
+begin_operator
+take you jafar lamp lamp
+3
+3 1
+8 1
+2 0
+2
+0 9 0 1
+0 11 -1 0
+2
+end_operator
+begin_operator
+take you jafar lamp lamp
+3
+3 1
+8 1
+0 0
+2
+0 9 0 1
+0 11 -1 0
+2
+end_operator
+begin_operator
+take you jafar lamp mountain
+3
+3 2
+8 2
+2 0
+2
+0 9 0 1
+0 11 -1 0
+2
+end_operator
+begin_operator
+take you jafar lamp mountain
+3
+3 2
+8 2
+0 0
+2
+0 9 0 1
+0 11 -1 0
+2
+end_operator
+begin_operator
+take you jasmine lamp castle
+3
+7 0
+8 0
+6 0
+2
+0 10 0 1
+0 11 -1 0
+2
+end_operator
+begin_operator
+take you jasmine lamp castle
+3
+7 0
+8 0
+0 0
+2
+0 10 0 1
+0 11 -1 0
+2
+end_operator
+begin_operator
+take you jasmine lamp lamp
+3
+7 1
+8 1
+6 0
+2
+0 10 0 1
+0 11 -1 0
+2
+end_operator
+begin_operator
+take you jasmine lamp lamp
+3
+7 1
+8 1
+0 0
+2
+0 10 0 1
+0 11 -1 0
+2
+end_operator
+begin_operator
+take you jasmine lamp mountain
+3
+7 2
+8 2
+6 0
+2
+0 10 0 1
+0 11 -1 0
+2
+end_operator
+begin_operator
+take you jasmine lamp mountain
+3
+7 2
+8 2
+0 0
+2
+0 10 0 1
+0 11 -1 0
+2
+end_operator
+begin_operator
+use you lamp
+1
+11 0
+1
+0 14 -1 0
+1
+end_operator
+0
+begin_SG
+switch 5
+check 1
+42
+switch 8
+check 0
+switch 13
+check 1
+0
+check 0
+check 0
+switch 4
+check 0
+switch 2
+check 2
+3
+4
+check 0
+check 0
+switch 12
+check 0
+check 1
+43
+check 0
+check 0
+check 0
+switch 12
+check 0
+switch 0
+check 0
+check 1
+44
+check 0
+check 0
+check 0
+switch 11
+check 0
+check 1
+27
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+switch 13
+check 1
+1
+check 0
+check 0
+switch 4
+check 0
+switch 2
+check 2
+5
+6
+check 0
+check 0
+switch 12
+check 0
+check 1
+45
+check 0
+check 0
+check 0
+switch 12
+check 0
+switch 0
+check 0
+check 1
+46
+check 0
+check 0
+check 0
+switch 11
+check 0
+check 1
+28
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+check 0
+switch 13
+check 1
+2
+check 0
+check 0
+switch 4
+check 0
+switch 2
+check 2
+7
+8
+check 0
+check 0
+switch 12
+check 0
+check 1
+47
+check 0
+check 0
+check 0
+switch 12
+check 0
+switch 0
+check 0
+check 1
+48
+check 0
+check 0
+check 0
+switch 11
+check 0
+check 1
+29
+check 0
+check 0
+check 0
+switch 3
+check 0
+switch 8
+check 0
+switch 2
+check 0
+switch 6
+check 2
+9
+10
+check 0
+check 0
+switch 9
+check 0
+check 1
+50
+check 0
+check 0
+check 0
+switch 9
+check 0
+switch 0
+check 0
+check 1
+51
+check 0
+check 0
+check 0
+switch 11
+check 0
+check 1
+30
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+switch 2
+check 0
+switch 6
+check 2
+11
+12
+check 0
+check 0
+switch 9
+check 0
+check 1
+52
+check 0
+check 0
+check 0
+switch 9
+check 0
+switch 0
+check 0
+check 1
+53
+check 0
+check 0
+check 0
+switch 11
+check 0
+check 1
+31
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+check 0
+switch 2
+check 0
+switch 6
+check 2
+13
+14
+check 0
+check 0
+switch 9
+check 0
+check 1
+54
+check 0
+check 0
+check 0
+switch 9
+check 0
+switch 0
+check 0
+check 1
+55
+check 0
+check 0
+check 0
+switch 11
+check 0
+check 1
+32
+check 0
+check 0
+check 0
+switch 7
+check 0
+switch 8
+check 0
+switch 6
+check 0
+switch 12
+check 2
+15
+16
+check 0
+check 0
+switch 10
+check 0
+check 1
+56
+check 0
+check 0
+check 0
+switch 10
+check 0
+switch 0
+check 0
+check 1
+57
+check 0
+check 0
+check 0
+switch 11
+check 0
+check 1
+33
+check 0
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+switch 6
+check 0
+switch 12
+check 2
+17
+18
+check 0
+check 0
+switch 10
+check 0
+check 1
+58
+check 0
+check 0
+check 0
+switch 10
+check 0
+switch 0
+check 0
+check 1
+59
+check 0
+check 0
+check 0
+switch 11
+check 0
+check 1
+34
+check 0
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 0
+check 0
+switch 6
+check 0
+switch 12
+check 2
+19
+20
+check 0
+check 0
+switch 10
+check 0
+check 1
+60
+check 0
+check 0
+check 0
+switch 10
+check 0
+switch 0
+check 0
+check 1
+61
+check 0
+check 0
+check 0
+switch 11
+check 0
+check 1
+35
+check 0
+check 0
+check 0
+switch 8
+check 0
+check 4
+21
+22
+38
+40
+check 4
+23
+24
+36
+41
+switch 13
+check 4
+25
+26
+37
+39
+check 0
+check 0
+switch 1
+check 0
+switch 0
+check 0
+check 1
+49
+check 0
+check 0
+check 0
+check 0
+switch 11
+check 0
+check 1
+62
+check 0
+check 0
+end_SG
+begin_DTG
+0
+1
+0
+42
+0
+end_DTG
+begin_DTG
+1
+1
+49
+2
+8 2
+0 0
+0
+end_DTG
+begin_DTG
+0
+3
+0
+30
+3
+3 0
+8 0
+11 0
+0
+31
+3
+3 1
+8 1
+11 0
+0
+32
+3
+3 2
+8 2
+11 0
+end_DTG
+begin_DTG
+2
+1
+9
+2
+8 0
+2 0
+2
+10
+2
+8 0
+2 0
+2
+0
+11
+2
+8 1
+2 0
+2
+12
+2
+8 1
+2 0
+2
+0
+13
+2
+8 2
+2 0
+1
+14
+2
+8 2
+2 0
+end_DTG
+begin_DTG
+0
+3
+0
+27
+3
+5 0
+8 0
+11 0
+0
+28
+3
+5 1
+8 1
+11 0
+0
+29
+3
+5 2
+8 2
+11 0
+end_DTG
+begin_DTG
+2
+1
+3
+2
+8 0
+4 0
+2
+4
+2
+8 0
+4 0
+2
+0
+5
+2
+8 1
+4 0
+2
+6
+2
+8 1
+4 0
+2
+0
+7
+2
+8 2
+4 0
+1
+8
+2
+8 2
+4 0
+end_DTG
+begin_DTG
+0
+3
+0
+33
+3
+7 0
+8 0
+11 0
+0
+34
+3
+7 1
+8 1
+11 0
+0
+35
+3
+7 2
+8 2
+11 0
+end_DTG
+begin_DTG
+2
+1
+15
+2
+8 0
+6 0
+2
+16
+2
+8 0
+6 0
+2
+0
+17
+2
+8 1
+6 0
+2
+18
+2
+8 1
+6 0
+2
+0
+19
+2
+8 2
+6 0
+1
+20
+2
+8 2
+6 0
+end_DTG
+begin_DTG
+2
+1
+38
+0
+2
+40
+0
+2
+0
+36
+0
+2
+41
+0
+2
+0
+37
+0
+1
+39
+0
+end_DTG
+begin_DTG
+6
+1
+50
+3
+3 0
+8 0
+2 0
+1
+51
+3
+3 0
+8 0
+0 0
+1
+52
+3
+3 1
+8 1
+2 0
+1
+53
+3
+3 1
+8 1
+0 0
+1
+54
+3
+3 2
+8 2
+2 0
+1
+55
+3
+3 2
+8 2
+0 0
+3
+0
+30
+3
+3 0
+8 0
+11 0
+0
+31
+3
+3 1
+8 1
+11 0
+0
+32
+3
+3 2
+8 2
+11 0
+end_DTG
+begin_DTG
+6
+1
+56
+3
+7 0
+8 0
+6 0
+1
+57
+3
+7 0
+8 0
+0 0
+1
+58
+3
+7 1
+8 1
+6 0
+1
+59
+3
+7 1
+8 1
+0 0
+1
+60
+3
+7 2
+8 2
+6 0
+1
+61
+3
+7 2
+8 2
+0 0
+3
+0
+33
+3
+7 0
+8 0
+11 0
+0
+34
+3
+7 1
+8 1
+11 0
+0
+35
+3
+7 2
+8 2
+11 0
+end_DTG
+begin_DTG
+9
+1
+27
+2
+5 0
+8 0
+1
+28
+2
+5 1
+8 1
+1
+29
+2
+5 2
+8 2
+1
+30
+2
+3 0
+8 0
+1
+31
+2
+3 1
+8 1
+1
+32
+2
+3 2
+8 2
+1
+33
+2
+7 0
+8 0
+1
+34
+2
+7 1
+8 1
+1
+35
+2
+7 2
+8 2
+19
+0
+49
+3
+8 2
+1 0
+0 0
+0
+52
+4
+3 1
+8 1
+2 0
+9 0
+0
+61
+4
+7 2
+8 2
+10 0
+0 0
+0
+60
+4
+7 2
+8 2
+6 0
+10 0
+0
+59
+4
+7 1
+8 1
+10 0
+0 0
+0
+58
+4
+7 1
+8 1
+6 0
+10 0
+0
+57
+4
+7 0
+8 0
+10 0
+0 0
+0
+56
+4
+7 0
+8 0
+6 0
+10 0
+0
+55
+4
+3 2
+8 2
+9 0
+0 0
+0
+54
+4
+3 2
+8 2
+2 0
+9 0
+0
+53
+4
+3 1
+8 1
+9 0
+0 0
+0
+43
+4
+5 0
+8 0
+4 0
+12 0
+0
+51
+4
+3 0
+8 0
+9 0
+0 0
+0
+50
+4
+3 0
+8 0
+2 0
+9 0
+0
+48
+4
+5 2
+8 2
+12 0
+0 0
+0
+47
+4
+5 2
+8 2
+4 0
+12 0
+0
+46
+4
+5 1
+8 1
+12 0
+0 0
+0
+45
+4
+5 1
+8 1
+4 0
+12 0
+0
+44
+4
+5 0
+8 0
+12 0
+0 0
+end_DTG
+begin_DTG
+6
+1
+43
+3
+5 0
+8 0
+4 0
+1
+44
+3
+5 0
+8 0
+0 0
+1
+45
+3
+5 1
+8 1
+4 0
+1
+46
+3
+5 1
+8 1
+0 0
+1
+47
+3
+5 2
+8 2
+4 0
+1
+48
+3
+5 2
+8 2
+0 0
+3
+0
+27
+3
+5 0
+8 0
+11 0
+0
+28
+3
+5 1
+8 1
+11 0
+0
+29
+3
+5 2
+8 2
+11 0
+end_DTG
+begin_DTG
+0
+3
+0
+0
+2
+5 0
+8 0
+0
+1
+2
+5 1
+8 1
+0
+2
+2
+5 2
+8 2
+end_DTG
+begin_DTG
+0
+1
+0
+62
+1
+11 0
+end_DTG
+begin_CG
+5
+12 3
+1 1
+9 3
+10 3
+11 10
+1
+11 1
+4
+3 6
+8 6
+9 3
+11 3
+4
+8 6
+2 3
+9 9
+11 9
+4
+5 6
+8 6
+12 3
+11 3
+5
+8 6
+13 3
+4 3
+12 9
+11 9
+4
+7 6
+8 6
+10 3
+11 3
+4
+8 6
+6 3
+10 9
+11 9
+12
+5 6
+3 6
+7 6
+13 3
+4 3
+2 3
+6 3
+12 9
+1 1
+9 9
+10 9
+11 28
+1
+11 6
+1
+11 6
+7
+4 3
+2 3
+6 3
+12 3
+9 3
+10 3
+14 1
+1
+11 6
+0
+0
+end_CG

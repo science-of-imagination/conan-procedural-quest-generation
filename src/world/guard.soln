@@ -1,0 +1,74 @@
+reading input... [t=0s]
+Simplifying transitions... done!
+done reading input! [t=1.75s]
+building causal graph...done! [t=1.765s]
+packing state variables...Variables: 142
+Bytes per state: 20
+done! [t=1.765s]
+done initalizing global data [t=1.765s]
+Average operator cost: 1.99298
+PDB collection construction time: 0.016s
+done calculating initial pattern collection and candidate patterns for the search
+current collection size is 6
+current initial h value: 4
+pattern: [137, 138] - improvement: 998
+found a better pattern with improvement 998
+pattern: [137, 138]
+Hill climbing time so far: 0.156s
+current collection size is 10
+current initial h value: 5
+Improvement below threshold. Stop hill climbing.
+Pruned 1 of 2 cliques
+Pruned 1 of 4 PDBs
+Dominance pruning took 0s
+iPDB: iterations = 2
+iPDB: num_patterns = 3
+iPDB: size = 8
+iPDB: generated = 116
+iPDB: rejected = 0
+iPDB: max_pdb_size = 32
+iPDB: hill climbing time: 0.75s
+Pattern generation (Haslum et al.) time: 0.766s
+Conducting best first search with reopening closed nodes, (real) bound = 2147483647
+f = 5 [1 evaluated, 0 expanded, t=2.531s, 8572 KB]
+Best heuristic value: 5 [g=0, 1 evaluated, 0 expanded, t=2.531s, 8572 KB]
+f = 6 [12 evaluated, 1 expanded, t=2.531s, 8572 KB]
+f = 7 [22 evaluated, 2 expanded, t=2.531s, 8572 KB]
+Best heuristic value: 4 [g=3, 58 evaluated, 7 expanded, t=2.531s, 8572 KB]
+f = 8 [99 evaluated, 14 expanded, t=2.531s, 8572 KB]
+f = 9 [184 evaluated, 27 expanded, t=2.531s, 8572 KB]
+Best heuristic value: 3 [g=6, 225 evaluated, 35 expanded, t=2.531s, 8572 KB]
+f = 10 [656 evaluated, 93 expanded, t=2.531s, 8572 KB]
+f = 11 [1401 evaluated, 187 expanded, t=2.531s, 8572 KB]
+Best heuristic value: 2 [g=9, 2034 evaluated, 288 expanded, t=2.531s, 8572 KB]
+Best heuristic value: 1 [g=10, 2037 evaluated, 289 expanded, t=2.531s, 8572 KB]
+f = 12 [3907 evaluated, 586 expanded, t=2.531s, 8572 KB]
+f = 13 [8704 evaluated, 1299 expanded, t=2.546s, 8828 KB]
+Best heuristic value: 0 [g=13, 8762 evaluated, 1305 expanded, t=2.546s, 8828 KB]
+Solution found!
+Actual search time: 0.015s [t=2.546s]
+stealth you (2)
+move you village field (2)
+take you wolf pelt village (1)
+move you shop village (2)
+giveto you merchant pelt shop (2)
+defend you merchant shop (1)
+move you cave shop (2)
+defend you ore cave (1)
+Plan length: 8 step(s).
+Plan cost: 13
+Initial state h value: 5.
+Expanded 1306 state(s).
+Reopened 0 state(s).
+Evaluated 8763 state(s).
+Evaluations: 8763
+Generated 34987 state(s).
+Dead ends: 0 state(s).
+Expanded until last jump: 1299 state(s).
+Reopened until last jump: 0 state(s).
+Evaluated until last jump: 8704 state(s).
+Generated until last jump: 34819 state(s).
+Number of registered states: 8763
+Search time: 0.015s
+Total time: 2.546s
+Solution found.

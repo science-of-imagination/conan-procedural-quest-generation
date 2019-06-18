@@ -1,0 +1,85 @@
+reading input... [t=0s]
+Simplifying transitions... done!
+done reading input! [t=1.766s]
+building causal graph...done! [t=1.766s]
+packing state variables...Variables: 141
+Bytes per state: 20
+done! [t=1.766s]
+done initalizing global data [t=1.766s]
+Average operator cost: 1.91981
+PDB collection construction time: 0.015s
+done calculating initial pattern collection and candidate patterns for the search
+current collection size is 12
+current initial h value: 3
+pattern: [98, 138] - improvement: 17
+pattern: [98, 140] - improvement: 836
+pattern: [135, 139] - improvement: 983
+found a better pattern with improvement 983
+pattern: [135, 139]
+Hill climbing time so far: 0.079s
+current collection size is 16
+current initial h value: 5
+pattern: [2, 140] - improvement: 3
+pattern: [98, 138] - improvement: 28
+pattern: [98, 140] - improvement: 836
+found a better pattern with improvement 836
+pattern: [98, 140]
+Hill climbing time so far: 0.594s
+current collection size is 32
+current initial h value: 6
+pattern: [2, 140] - improvement: 2
+pattern: [98, 138] - improvement: 24
+pattern: [98, 138, 140] - improvement: 31
+pattern: [2, 98, 140] - improvement: 2
+found a better pattern with improvement 31
+pattern: [98, 138, 140]
+Hill climbing time so far: 0.844s
+current collection size is 160
+current initial h value: 6
+pattern: [2, 140] - improvement: 4
+pattern: [2, 98, 140] - improvement: 4
+pattern: [2, 98, 138, 140] - improvement: 4
+Improvement below threshold. Stop hill climbing.
+Pruned 5 of 6 cliques
+Pruned 4 of 6 PDBs
+Dominance pruning took 0s
+iPDB: iterations = 4
+iPDB: num_patterns = 2
+iPDB: size = 132
+iPDB: generated = 144
+iPDB: rejected = 0
+iPDB: max_pdb_size = 1024
+iPDB: hill climbing time: 1.125s
+Pattern generation (Haslum et al.) time: 1.14s
+Conducting best first search with reopening closed nodes, (real) bound = 2147483647
+f = 6 [1 evaluated, 0 expanded, t=2.906s, 8444 KB]
+Best heuristic value: 6 [g=0, 1 evaluated, 0 expanded, t=2.906s, 8444 KB]
+Best heuristic value: 5 [g=3, 10 evaluated, 1 expanded, t=2.906s, 8444 KB]
+Best heuristic value: 4 [g=2, 16 evaluated, 2 expanded, t=2.906s, 8444 KB]
+f = 7 [32 evaluated, 3 expanded, t=2.906s, 8444 KB]
+Best heuristic value: 2 [g=5, 44 evaluated, 5 expanded, t=2.906s, 8444 KB]
+Best heuristic value: 0 [g=7, 54 evaluated, 6 expanded, t=2.906s, 8444 KB]
+Solution found!
+Actual search time: 0s [t=2.906s]
+move you village field (1)
+kill you troll hammer village sword (1)
+move you castle village (1)
+getfromlocation you castle spellbook (2)
+experiment you spellbook (2)
+Plan length: 5 step(s).
+Plan cost: 7
+Initial state h value: 6.
+Expanded 7 state(s).
+Reopened 0 state(s).
+Evaluated 55 state(s).
+Evaluations: 55
+Generated 160 state(s).
+Dead ends: 0 state(s).
+Expanded until last jump: 3 state(s).
+Reopened until last jump: 0 state(s).
+Evaluated until last jump: 32 state(s).
+Generated until last jump: 81 state(s).
+Number of registered states: 55
+Search time: 0s
+Total time: 2.906s
+Solution found.

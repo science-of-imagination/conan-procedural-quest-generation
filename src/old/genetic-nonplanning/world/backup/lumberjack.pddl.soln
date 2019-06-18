@@ -1,0 +1,4 @@
+(move you forest bakery)
+(getfromlocation you wood forest)
+(move you camp forest)
+(giveto you lumberjack wood camp)

@@ -1,0 +1,61 @@
+reading input... [t=0s]
+Simplifying transitions... done!
+done reading input! [t=1.891s]
+building causal graph...done! [t=1.906s]
+packing state variables...Variables: 140
+Bytes per state: 20
+done! [t=1.906s]
+done initalizing global data [t=1.906s]
+Average operator cost: 1.46907
+PDB collection construction time: 0s
+done calculating initial pattern collection and candidate patterns for the search
+current collection size is 4
+current initial h value: 4
+pattern: [132, 139] - improvement: 980
+found a better pattern with improvement 980
+pattern: [132, 139]
+Hill climbing time so far: 0.079s
+current collection size is 8
+current initial h value: 5
+Improvement below threshold. Stop hill climbing.
+Pruned 1 of 2 cliques
+Pruned 1 of 3 PDBs
+Dominance pruning took 0s
+iPDB: iterations = 2
+iPDB: num_patterns = 2
+iPDB: size = 6
+iPDB: generated = 98
+iPDB: rejected = 0
+iPDB: max_pdb_size = 32
+iPDB: hill climbing time: 0.579s
+Pattern generation (Haslum et al.) time: 0.579s
+Conducting best first search with reopening closed nodes, (real) bound = 2147483647
+f = 5 [1 evaluated, 0 expanded, t=2.485s, 9020 KB]
+Best heuristic value: 5 [g=0, 1 evaluated, 0 expanded, t=2.485s, 9020 KB]
+Best heuristic value: 3 [g=2, 12 evaluated, 1 expanded, t=2.485s, 9020 KB]
+f = 7 [22 evaluated, 2 expanded, t=2.485s, 9020 KB]
+Best heuristic value: 2 [g=5, 59 evaluated, 9 expanded, t=2.485s, 9020 KB]
+Best heuristic value: 0 [g=7, 71 evaluated, 10 expanded, t=2.485s, 9020 KB]
+Solution found!
+Actual search time: 0s [t=2.485s]
+damage you sword bakery sword (2)
+move you forge field (2)
+exchange you blacksmith hammer sword forge (1)
+experiment you hammer (2)
+Plan length: 4 step(s).
+Plan cost: 7
+Initial state h value: 5.
+Expanded 11 state(s).
+Reopened 0 state(s).
+Evaluated 71 state(s).
+Evaluations: 71
+Generated 254 state(s).
+Dead ends: 0 state(s).
+Expanded until last jump: 2 state(s).
+Reopened until last jump: 0 state(s).
+Evaluated until last jump: 22 state(s).
+Generated until last jump: 50 state(s).
+Number of registered states: 71
+Search time: 0s
+Total time: 2.485s
+Solution found.

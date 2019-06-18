@@ -1,0 +1,6 @@
+(move you village field)
+(kill you troll hammer village sword)
+(move you castle village)
+(getfromlocation you castle spellbook)
+(experiment you spellbook)
+; cost = 7 (general cost)

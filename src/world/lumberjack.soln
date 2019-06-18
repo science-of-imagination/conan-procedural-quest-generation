@@ -1,0 +1,53 @@
+reading input... [t=0s]
+Simplifying transitions... done!
+done reading input! [t=1.796s]
+building causal graph...done! [t=1.796s]
+packing state variables...Variables: 139
+Bytes per state: 20
+done! [t=1.796s]
+done initalizing global data [t=1.796s]
+Average operator cost: 1.77308
+PDB collection construction time: 0s
+done calculating initial pattern collection and candidate patterns for the search
+current collection size is 2
+current initial h value: 1
+Improvement below threshold. Stop hill climbing.
+Pruned 0 of 1 cliques
+Pruned 0 of 1 PDBs
+Dominance pruning took 0s
+iPDB: iterations = 1
+iPDB: num_patterns = 1
+iPDB: size = 2
+iPDB: generated = 10
+iPDB: rejected = 0
+iPDB: max_pdb_size = 16
+iPDB: hill climbing time: 0.063s
+Pattern generation (Haslum et al.) time: 0.063s
+Conducting best first search with reopening closed nodes, (real) bound = 2147483647
+f = 1 [1 evaluated, 0 expanded, t=1.875s, 8512 KB]
+Best heuristic value: 1 [g=0, 1 evaluated, 0 expanded, t=1.875s, 8512 KB]
+f = 2 [12 evaluated, 1 expanded, t=1.875s, 8512 KB]
+f = 3 [39 evaluated, 3 expanded, t=1.875s, 8512 KB]
+f = 4 [89 evaluated, 7 expanded, t=1.875s, 8512 KB]
+Best heuristic value: 0 [g=4, 99 evaluated, 10 expanded, t=1.875s, 8512 KB]
+Solution found!
+Actual search time: 0s [t=1.875s]
+explore you field cave (3)
+giveto you daughter sword cave (1)
+Plan length: 2 step(s).
+Plan cost: 4
+Initial state h value: 1.
+Expanded 11 state(s).
+Reopened 0 state(s).
+Evaluated 100 state(s).
+Evaluations: 100
+Generated 263 state(s).
+Dead ends: 0 state(s).
+Expanded until last jump: 7 state(s).
+Reopened until last jump: 0 state(s).
+Evaluated until last jump: 89 state(s).
+Generated until last jump: 183 state(s).
+Number of registered states: 100
+Search time: 0s
+Total time: 1.875s
+Solution found.

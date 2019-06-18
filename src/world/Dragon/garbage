@@ -1,0 +1,55 @@
+Parsing...
+Parsing: [0.000s CPU, 0.007s wall-clock]
+Normalizing task... [0.000s CPU, 0.002s wall-clock]
+Instantiating...
+Generating Datalog program... [0.000s CPU, 0.002s wall-clock]
+Normalizing Datalog program...
+Normalizing Datalog program: [0.031s CPU, 0.026s wall-clock]
+Preparing model... [0.000s CPU, 0.009s wall-clock]
+Generated 270 rules.
+Computing model... [0.031s CPU, 0.030s wall-clock]
+204 relevant atoms
+857 auxiliary atoms
+1061 final queue length
+1215 total queue pushes
+Completing instantiation... [0.016s CPU, 0.010s wall-clock]
+Instantiating: [0.078s CPU, 0.078s wall-clock]
+Computing fact groups...
+Finding invariants...
+29 initial candidates
+Finding invariants: [0.015s CPU, 0.009s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
+Instantiating groups... [0.000s CPU, 0.000s wall-clock]
+Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
+Choosing groups...
+30 uncovered facts
+Choosing groups: [0.000s CPU, 0.000s wall-clock]
+Building translation key... [0.000s CPU, 0.000s wall-clock]
+Computing fact groups: [0.015s CPU, 0.010s wall-clock]
+Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
+Building mutex information...
+Building mutex information: [0.000s CPU, 0.000s wall-clock]
+Translating task...
+Processing axioms...
+Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
+Processing axioms: [0.000s CPU, 0.001s wall-clock]
+Translating task: [0.000s CPU, 0.009s wall-clock]
+28 effect conditions simplified
+0 implied preconditions added
+Detecting unreachable propositions...
+3 operators removed
+18 propositions removed
+Detecting unreachable propositions: [0.016s CPU, 0.002s wall-clock]
+Translator variables: 27
+Translator derived variables: 0
+Translator facts: 58
+Translator goal facts: 1
+Translator mutex groups: 4
+Translator total mutex groups size: 12
+Translator operators: 106
+Translator axioms: 0
+Translator task size: 655
+warning: could not determine peak memory
+Writing output... [0.000s CPU, 0.007s wall-clock]
+Done! [0.109s CPU, 0.119s wall-clock]

@@ -1,0 +1,55 @@
+Parsing...
+Parsing: [0.000s CPU, 0.011s wall-clock]
+Normalizing task... [0.016s CPU, 0.003s wall-clock]
+Instantiating...
+Generating Datalog program... [0.000s CPU, 0.003s wall-clock]
+Normalizing Datalog program...
+Normalizing Datalog program: [0.031s CPU, 0.036s wall-clock]
+Preparing model... [0.016s CPU, 0.011s wall-clock]
+Generated 270 rules.
+Computing model... [0.375s CPU, 0.373s wall-clock]
+6586 relevant atoms
+7645 auxiliary atoms
+14231 final queue length
+25358 total queue pushes
+Completing instantiation... [0.719s CPU, 0.724s wall-clock]
+Instantiating: [1.141s CPU, 1.153s wall-clock]
+Computing fact groups...
+Finding invariants...
+29 initial candidates
+Finding invariants: [0.015s CPU, 0.019s wall-clock]
+Checking invariant weight... [0.016s CPU, 0.000s wall-clock]
+Instantiating groups... [0.000s CPU, 0.001s wall-clock]
+Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
+Choosing groups...
+231 uncovered facts
+Choosing groups: [0.000s CPU, 0.000s wall-clock]
+Building translation key... [0.000s CPU, 0.002s wall-clock]
+Computing fact groups: [0.031s CPU, 0.027s wall-clock]
+Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.001s wall-clock]
+Building mutex information...
+Building mutex information: [0.000s CPU, 0.001s wall-clock]
+Translating task...
+Processing axioms...
+Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
+Processing axioms: [0.047s CPU, 0.042s wall-clock]
+Translating task: [0.875s CPU, 0.866s wall-clock]
+6779 effect conditions simplified
+0 implied preconditions added
+Detecting unreachable propositions...
+136 operators removed
+40 propositions removed
+Detecting unreachable propositions: [0.125s CPU, 0.126s wall-clock]
+Translator variables: 223
+Translator derived variables: 0
+Translator facts: 494
+Translator goal facts: 1
+Translator mutex groups: 8
+Translator total mutex groups size: 64
+Translator operators: 5619
+Translator axioms: 0
+Translator task size: 49360
+warning: could not determine peak memory
+Writing output... [0.187s CPU, 0.186s wall-clock]
+Done! [2.391s CPU, 2.399s wall-clock]

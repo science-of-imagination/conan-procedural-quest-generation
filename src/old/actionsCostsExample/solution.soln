@@ -1,0 +1,11 @@
+Parsed Domain file domain2.pddl successfully
+Parsed Problem file baker2.pddl successfully
+2
+1
+Scheduling
+0.01: (drive car Paris Berlin)
+0.01: (drive truck Rome Paris)
+0.02: (drive car Berlin Rome)
+Instantiation Time =		0sec
+Planning Time =	0sec
+Scheduling Time =	0sec

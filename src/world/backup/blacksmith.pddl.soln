@@ -1,0 +1,4 @@
+(move you mine bakery)
+(getfromlocation you ore mine)
+(move you forge mine)
+(giveto you blacksmith ore forge)

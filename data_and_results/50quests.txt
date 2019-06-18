@@ -1,0 +1,99 @@
+(stealth you) (move you village bakery) (take you guard sword village) (move you cave village) (kill you troll hammer cave sword) 
+
+(move you castle bakery) (read you castle spellbook fireball) (move you cave castle) (defend you daughter cave) (move you village cave) (report you guard fireball village) 
+
+(stealth you) (move you village bakery) (take you guard sword village) (move you cave village) (kill you troll hammer cave sword) 
+
+(move you castle bakery) (read you castle spellbook fireball) 
+
+(move you cave bakery) (stealth you) (take you troll hammer cave) (experiment you hammer) (move you field cave) (kill you slime gel field hammer) (defend you gel field) 
+
+(explore you bakery cave) (getfromlocation you cave ore) (use you ore) 
+
+(explore you bakery cave) 
+
+(capture you baker bakery) (stealth you) (move you cave bakery) (take you troll hammer cave) (move you village cave) (damage you hammer bakery hammer) (giveto you guard hammer village) (escort you guard village bakery) 
+
+(stealth you) (move you cave bakery) (take you troll hammer cave) (move you field cave) (kill you slime gel field hammer) (getfromlocation you field wheat) (move you forge field) (exchange you blacksmith ore wheat forge) 
+
+(move you forge bakery) (capture you blacksmith forge) 
+
+(stealth you) (move you village bakery) (take you guard sword village) (giveto you guard sword village) (take you guard sword village) (move you field village) (damage you wheat field sword) 
+
+(stealth you) (move you village bakery) (take you guard sword village) (experiment you sword) (move you castle village) (spy you king castle secret) 
+
+(explore you bakery forge) (escort you blacksmith forge castle) (listen you king castle secret) (report you blacksmith secret castle) (getfromlocation you castle spellbook) (escort you blacksmith castle village) (exchange you guard sword spellbook village) (escort you blacksmith village field) (kill you slime gel field sword) 
+
+(stealth you) (move you cave bakery) (take you troll hammer cave) (use you hammer) 
+
+(stealth you) (move you cave bakery) (take you troll hammer cave) (move you field cave) (kill you slime gel field hammer) (defend you gel field) 
+
+(move you castle bakery) (listen you king castle secret) (move you cave castle) (stealth you) (take you troll hammer cave) (move you village cave) (take you guard sword village) (giveto you guard hammer village) (escort you guard village field) (kill you guard hammer field sword) 
+
+(move you field bakery) (defend you wheat field) 
+
+(stealth you) (move you cave bakery) (take you troll hammer cave) (move you forest cave) (kill you wolf pelt forest hammer) (move you castle forest) (giveto you king hammer castle) 
+
+(stealth you) (move you village bakery) (capture you guard village) 
+
+(stealth you) (explore you bakery village) (take you guard sword village) (explore you village cave) (kill you troll hammer cave sword) (defend you hammer cave) 
+
+(stealth you) (move you cave bakery) (take you troll hammer cave) (damage you ore cave hammer) (move you castle cave) (listen you king castle secret) 
+
+(move you village bakery) (stealth you) (take you guard sword village) (giveto you guard sword village) (escort you guard village shop) 
+
+(explore you bakery forest) (move you cave forest) (capture you daughter cave) 
+
+(move you castle bakery) (defend you king castle) (move you cave castle) (getfromlocation you cave ore) (giveto you daughter ore cave) 
+
+(stealth you) (move you field bakery) (take you slime gel field) (use you gel) (move you village field) (take you guard sword village) (damage you sword bakery sword) 
+
+(move you castle bakery) (getfromlocation you castle spellbook) (move you village castle) (defend you lumberjack village) (exchange you guard sword spellbook village) (kill you guard spellbook village sword) 
+
+(explore you bakery forge) (defend you blacksmith forge) (stealth you) (escort you blacksmith forge village) (take you guard sword village) (giveto you blacksmith sword village) found
+
+(explore you bakery forge) (take you blacksmith ore forge) (move you village forge) (exchange you guard sword ore village) (damage you sword bakery sword) 
+
+(explore you bakery cave) (explore you cave forest) 
+
+(move you forge bakery) (escort you blacksmith forge shop) (move you cave shop) (stealth you) (take you troll hammer cave) (move you castle cave) (damage you spellbook castle hammer) 
+
+(stealth you) (move you village bakery) (take you guard sword village) (move you cave village) (capture you daughter cave) (kill you troll hammer cave sword) 
+
+(move you village bakery) (capture you guard village) (stealth you) (take you guard sword village) (move you field village) (kill you slime gel field sword) (defend you gel field) 
+
+(explore you bakery bakery) 
+
+(move you castle bakery) (getfromlocation you castle spellbook) (use you spellbook) (move you village castle) (exchange you guard sword spellbook village) (move you cave village) (kill you troll hammer cave sword) (move you forge cave) (defend you blacksmith forge) 
+
+(stealth you) (explore you bakery shop) (move you village shop) (take you guard sword village) (move you cave village) (kill you troll hammer cave sword) 
+
+(explore you bakery forge) (move you castle forge) (getfromlocation you castle spellbook) (use you spellbook) (move you field castle) (getfromlocation you field wheat) (use you wheat) 
+
+(stealth you) (move you cave bakery) (take you troll hammer cave) (move you field cave) (kill you slime gel field hammer) (move you bakery field) (giveto you baker hammer bakery) (escort you baker bakery village) (move you castle village) (read you castle spellbook fireball) 
+
+(stealth you) (move you village bakery) (take you guard sword village) (move you cave village) (kill you troll hammer cave sword) (move you castle cave) (giveto you king sword castle) 
+
+(stealth you) (explore you bakery field) (take you slime gel field) (use you gel) 
+
+(stealth you) 
+
+(explore you bakery cave) (stealth you) (take you troll hammer cave) (move you village cave) (take you guard sword village) (move you bakery village) (giveto you baker hammer bakery) (kill you baker hammer bakery sword) (move you field bakery) (kill you slime gel field sword) (defend you gel field) 
+
+(move you field bakery) (stealth you) (take you slime gel field) (use you gel) (move you village field) (giveto you guard gel village) 
+
+(stealth you) (move you cave bakery) (take you troll hammer cave) (move you field cave) (kill you slime gel field hammer) (damage you gel field hammer) 
+
+(move you castle bakery) (defend you king castle) 
+
+(explore you bakery bakery) (move you village bakery) (defend you lumberjack village) 
+
+(explore you bakery castle) (read you castle spellbook fireball) 
+
+(move you field bakery) (defend you wheat field) 
+
+(move you cave bakery) (stealth you) (take you troll hammer cave) (move you forge cave) (kill you blacksmith ore forge hammer) (damage you hammer bakery hammer) (move you forest forge) (take you wolf pelt forest) (experiment you pelt) 
+
+(move you castle bakery) (read you castle spellbook fireball) (explore you castle cave) (report you daughter fireball cave) 
+
+(stealth you) (move you cave bakery) (take you troll hammer cave) (move you field cave) (kill you slime gel field hammer) 

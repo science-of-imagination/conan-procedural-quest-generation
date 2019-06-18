@@ -1,0 +1,4 @@
+(move you field bakery)
+(getfromlocation you wheat field)
+(move you bakery field)
+(giveto you baker wheat bakery)

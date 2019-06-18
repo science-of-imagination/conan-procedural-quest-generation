@@ -1,0 +1,15 @@
+Treemap graphs.
+
+Could have action sequence by motivation.(maybe interesting but not necessary)
+
+To test agent preference:
+Give them all the same 10 goals and let them chose which one they want. (not interesting)
+
+
+Have a graph for difference in actions versus action cost difference
+
+If the prefences simulate intentionality, give the same goal to all agents and see how their plans differ. (Needs to have stats, put in future work)
+
+Checking preferences in goal choosing.
+
+Compare a game in aladdin world to other engines in lit.

@@ -1,0 +1,62 @@
+reading input... [t=0s]
+Simplifying transitions... done!
+done reading input! [t=2.062s]
+building causal graph...done! [t=2.062s]
+packing state variables...Variables: 130
+Bytes per state: 20
+done! [t=2.062s]
+done initalizing global data [t=2.062s]
+Average operator cost: 1.85761
+PDB collection construction time: 0.016s
+done calculating initial pattern collection and candidate patterns for the search
+current collection size is 2
+current initial h value: 1
+pattern: [127, 129] - improvement: 1000
+found a better pattern with improvement 1000
+pattern: [127, 129]
+Hill climbing time so far: 0.015s
+current collection size is 6
+current initial h value: 2
+Improvement below threshold. Stop hill climbing.
+Pruned 1 of 2 cliques
+Pruned 1 of 2 PDBs
+Dominance pruning took 0s
+iPDB: iterations = 2
+iPDB: num_patterns = 1
+iPDB: size = 4
+iPDB: generated = 76
+iPDB: rejected = 0
+iPDB: max_pdb_size = 32
+iPDB: hill climbing time: 0.422s
+Pattern generation (Haslum et al.) time: 0.438s
+Conducting best first search with reopening closed nodes, (real) bound = 2147483647
+f = 2 [1 evaluated, 0 expanded, t=2.5s, 8684 KB]
+Best heuristic value: 2 [g=0, 1 evaluated, 0 expanded, t=2.5s, 8684 KB]
+f = 4 [9 evaluated, 1 expanded, t=2.5s, 8684 KB]
+f = 6 [27 evaluated, 9 expanded, t=2.5s, 8684 KB]
+Best heuristic value: 1 [g=6, 42 evaluated, 16 expanded, t=2.5s, 8684 KB]
+f = 7 [79 evaluated, 20 expanded, t=2.5s, 8684 KB]
+Best heuristic value: 0 [g=7, 90 evaluated, 21 expanded, t=2.5s, 8684 KB]
+Solution found!
+Actual search time: 0s [t=2.5s]
+stealth you (2)
+move you village bakery (2)
+take you guard sword village (2)
+use you sword (1)
+Plan length: 4 step(s).
+Plan cost: 7
+Initial state h value: 2.
+Expanded 22 state(s).
+Reopened 0 state(s).
+Evaluated 90 state(s).
+Evaluations: 90
+Generated 363 state(s).
+Dead ends: 0 state(s).
+Expanded until last jump: 20 state(s).
+Reopened until last jump: 0 state(s).
+Evaluated until last jump: 79 state(s).
+Generated until last jump: 337 state(s).
+Number of registered states: 90
+Search time: 0s
+Total time: 2.5s
+Solution found.

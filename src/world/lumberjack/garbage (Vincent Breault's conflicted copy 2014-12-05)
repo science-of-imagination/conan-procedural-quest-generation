@@ -1,0 +1,55 @@
+Parsing...
+Parsing: [0.000s CPU, 0.008s wall-clock]
+Normalizing task... [0.000s CPU, 0.002s wall-clock]
+Instantiating...
+Generating Datalog program... [0.000s CPU, 0.002s wall-clock]
+Normalizing Datalog program...
+Normalizing Datalog program: [0.032s CPU, 0.031s wall-clock]
+Preparing model... [0.015s CPU, 0.010s wall-clock]
+Generated 270 rules.
+Computing model... [0.360s CPU, 0.353s wall-clock]
+6586 relevant atoms
+7639 auxiliary atoms
+14225 final queue length
+25350 total queue pushes
+Completing instantiation... [0.655s CPU, 0.654s wall-clock]
+Instantiating: [1.062s CPU, 1.056s wall-clock]
+Computing fact groups...
+Finding invariants...
+29 initial candidates
+Finding invariants: [0.016s CPU, 0.016s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
+Instantiating groups... [0.000s CPU, 0.001s wall-clock]
+Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
+Choosing groups...
+231 uncovered facts
+Choosing groups: [0.000s CPU, 0.000s wall-clock]
+Building translation key... [0.000s CPU, 0.002s wall-clock]
+Computing fact groups: [0.016s CPU, 0.024s wall-clock]
+Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
+Building dictionary for full mutex groups... [0.015s CPU, 0.001s wall-clock]
+Building mutex information...
+Building mutex information: [0.000s CPU, 0.001s wall-clock]
+Translating task...
+Processing axioms...
+Simplifying axioms... [0.000s CPU, 0.000s wall-clock]
+Processing axioms: [0.032s CPU, 0.036s wall-clock]
+Translating task: [0.750s CPU, 0.749s wall-clock]
+6779 effect conditions simplified
+0 implied preconditions added
+Detecting unreachable propositions...
+8 operators removed
+36 propositions removed
+Detecting unreachable propositions: [0.125s CPU, 0.152s wall-clock]
+Translator variables: 225
+Translator derived variables: 0
+Translator facts: 498
+Translator goal facts: 2
+Translator mutex groups: 8
+Translator total mutex groups size: 64
+Translator operators: 5747
+Translator axioms: 0
+Translator task size: 50223
+warning: could not determine peak memory
+Writing output... [0.218s CPU, 0.228s wall-clock]
+Done! [2.234s CPU, 2.258s wall-clock]

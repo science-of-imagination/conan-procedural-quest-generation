@@ -1,0 +1,50 @@
+m:Reputation
+m:Reputation
+m:Reputation
+m:Not found
+m:Reputation
+m:Ability
+m:Not found
+m:Conquest
+m:Equipment
+m:Not found
+m:Conquest
+m:Knowledge
+m:Not found
+m:Ability
+m:Reputation
+m:Serenity
+m:Protection
+m:Reputation
+m:Not found
+m:Not found
+m:Comfort
+m:Not found
+m:Not found
+m:Wealth
+m:Ability
+m:Wealth
+m:Not 
+m:Equipment
+m:Not found
+m:Conquest
+m:Serenity
+m:Reputation
+m:Not found
+m:Ability
+m:Reputation
+m:Ability
+m:Reputation
+m:Reputation
+m:Ability
+m:Not found
+m:Reputation
+m:Ability
+m:Ability
+m:Protection
+m:Protection
+m:Not found
+m:Protection
+m:Comfort
+m:Not found
+m:Reputation

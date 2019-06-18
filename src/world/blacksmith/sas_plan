@@ -1,0 +1,4 @@
+(getfromlocation you field wheat)
+(move you forge field)
+(exchange you blacksmith hammer wheat forge)
+; cost = 4 (general cost)

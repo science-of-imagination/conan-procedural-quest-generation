@@ -1,0 +1,4 @@
+(move you forge bakery)
+(escort you blacksmith forge field)
+(getfromlocation you wheat field)
+(giveto you blacksmith wheat field)

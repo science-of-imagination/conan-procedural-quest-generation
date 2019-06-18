@@ -1,0 +1,85 @@
+import os
+
+class Actions:
+
+    def __init__(self, name, parameters, effects):
+        self.name = name
+        self.parameters = parameters
+        self.effect = effects
+
+data = "world"
+
+domain = "domain.pddl"
+
+
+template = ""
+with open(os.path.join(data,domain),"r") as templatefile:
+    template = templatefile.read()
+with open(os.path.join(data,domain),"r") as templatefile:
+    template2 = templatefile.readlines()
+listOfActions = []
+actionFound = False
+name = []
+parameters = []
+effect = []
+for lines in template2:
+    if 'action ' in lines:
+        name.append(lines.split()[1])
+    if 'parameters' in lines:
+        parameters.append(lines[19:-1].replace(")","").replace("(","").split())
+    if 'effect' in lines:
+        effect.append(lines[21:-29].split(") "))
+        for i,eff in enumerate(effect[0]):
+            if i == len(effect[0])-1:
+                break
+            effect[0][i] = eff+")"
+
+    if len(name) and len(parameters) and len(effect) > 0:
+        actionNamePlaceholder = Actions(name,parameters,effect)
+        listOfActions.append(actionNamePlaceholder)
+        name = []
+        parameters = []
+        effect = []
+
+actionPouni = 'move you village bakery'
+
+actionPouni = actionPouni.split()
+actionName = actionPouni[0] #this would be move
+
+for actions in listOfActions:
+    if actions.name[0] == actionName:
+        chosenAction = actions #chosenAction is therefore the object corresponding to the action
+
+
+
+parameterCorrespondence = {}
+for i,parameter in enumerate(chosenAction.parameters[0]):
+    parameterCorrespondence[parameter] = actionPouni[i+1].replace(")","") #{(?p, you), (?to, village), (blalba)}
+
+
+
+
+for effects in chosenAction.effect[0]:
+    effects = effects.replace(")","")
+    effects = effects.replace("(","")
+
+    toRemoveFlag = False
+    #effects = '(has ?loc ?i)'
+    currentEffect = effects.split()
+    predicate = currentEffect[0]
+    if predicate == "not":
+        toRemoveFlag = True
+        predicate = currentEffect[1]
+
+    finalEffect = []
+    for word in currentEffect:
+        if word in parameterCorrespondence.keys():
+            finalEffect.append(parameterCorrespondence[word])
+    toAddorRemove = "("+predicate+" "+" ".join(finalEffect)+")"
+    '''
+    if toRemoveFlag:
+        facts.remove(toAddorRemove)
+    else:
+        facts.add(toAddorRemove)
+'''
+    print(toAddorRemove)

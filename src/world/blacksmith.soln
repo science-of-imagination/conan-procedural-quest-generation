@@ -1,0 +1,60 @@
+reading input... [t=0s]
+Simplifying transitions... done!
+done reading input! [t=1.735s]
+building causal graph...done! [t=1.75s]
+packing state variables...Variables: 139
+Bytes per state: 20
+done! [t=1.75s]
+done initalizing global data [t=1.75s]
+Average operator cost: 2.14672
+PDB collection construction time: 0s
+done calculating initial pattern collection and candidate patterns for the search
+current collection size is 2
+current initial h value: 2
+pattern: [83, 138] - improvement: 2
+pattern: [137, 138] - improvement: 947
+found a better pattern with improvement 947
+pattern: [137, 138]
+Hill climbing time so far: 0.11s
+current collection size is 6
+current initial h value: 3
+Improvement below threshold. Stop hill climbing.
+Pruned 1 of 2 cliques
+Pruned 1 of 2 PDBs
+Dominance pruning took 0s
+iPDB: iterations = 2
+iPDB: num_patterns = 1
+iPDB: size = 4
+iPDB: generated = 102
+iPDB: rejected = 0
+iPDB: max_pdb_size = 32
+iPDB: hill climbing time: 0.641s
+Pattern generation (Haslum et al.) time: 0.641s
+Conducting best first search with reopening closed nodes, (real) bound = 2147483647
+f = 3 [1 evaluated, 0 expanded, t=2.391s, 8440 KB]
+Best heuristic value: 3 [g=0, 1 evaluated, 0 expanded, t=2.391s, 8440 KB]
+Best heuristic value: 2 [g=1, 11 evaluated, 1 expanded, t=2.391s, 8440 KB]
+f = 4 [23 evaluated, 2 expanded, t=2.391s, 8440 KB]
+Best heuristic value: 0 [g=4, 48 evaluated, 7 expanded, t=2.391s, 8440 KB]
+Solution found!
+Actual search time: 0s [t=2.391s]
+getfromlocation you field wheat (1)
+move you forge field (1)
+exchange you blacksmith hammer wheat forge (2)
+Plan length: 3 step(s).
+Plan cost: 4
+Initial state h value: 3.
+Expanded 8 state(s).
+Reopened 0 state(s).
+Evaluated 51 state(s).
+Evaluations: 51
+Generated 183 state(s).
+Dead ends: 0 state(s).
+Expanded until last jump: 2 state(s).
+Reopened until last jump: 0 state(s).
+Evaluated until last jump: 23 state(s).
+Generated until last jump: 50 state(s).
+Number of registered states: 51
+Search time: 0s
+Total time: 2.391s
+Solution found.
